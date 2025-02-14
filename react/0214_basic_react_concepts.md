@@ -10,5 +10,3 @@ react는 컴포넌트 기반(Component-based)로 동작한다.
 ## JSX문법
 
 JSX(Javascript XML)라는 문법을 사용한다. HTML과 비슷하지만 Javascript코드도 함께 사용할 수 있다.
-
-react 기본 개념 커밋 이라고 영어로 알려줘
