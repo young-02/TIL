@@ -15,7 +15,7 @@ JSX(Javascript XML)라는 문법을 사용한다. HTML과 비슷하지만 Javasc
 
 1. 컴포넌트 기반 개발(Component-Based Architecture)
 
-- UI를 독립적인 텀포넌트로 나눠서 관리하면 유지보수가 쉬워진다.
+- UI를 독립적인 컴포넌트로 나눠서 관리하면 유지보수가 쉬워진다.
 - 같은 UI 요소를 여러 번 재사용할 수 있다.
 
 2. 가상 DOM - 빠른 렌더링(Virtual DOM)
