@@ -164,7 +164,8 @@ function Child() {
 
 white_check_mark:props없이도 상태를 공유 할 수 있음.
 
-(3)Redux/Zustand 전역 상태관리 라이브러리
+### (3)Redux/Zustand 전역 상태관리 라이브러리
+
 더 큰 규모의 앱에서 Redux,zustand같은 전역 상태 관리 라이브러리 사용
 
 ## 정리
