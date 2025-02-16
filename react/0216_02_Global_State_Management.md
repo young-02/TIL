@@ -170,7 +170,7 @@ export default UserProfile;
 - 데이터 흐름이 비교적 단순 할때
 - props drilling문제를 해결할 때
 
-:white_check_mark:
+:white_check_mark: 예제
 
 - 다크모드.라이트모드 테마 관리
 - 현재 로그인된 사용자 이름 한줄 표시
@@ -181,7 +181,7 @@ export default UserProfile;
 - 여러 컴포넌트에서 자주 상태를 변경하는 경우
 - 비동기처리(서버에서 데이터 가져오기 등)가 필요한 경우
 
-:white_check_mark:
+:white_check_mark: 예제
 
 - 로그인/인증상태관리
 - 쇼핑몰 장바구니 관리
