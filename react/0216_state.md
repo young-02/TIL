@@ -23,7 +23,7 @@ function Counter() {
 export default Counter;
 ```
 
-white_check_mark: setCount(count+1)을 실행하면, count 값이 변경되고, React가 자동으로 UI를 다시 그림 (직접 DOM을 조작하지 않아도 됨.)
+:white_check_mark: setCount(count+1)을 실행하면, count 값이 변경되고, React가 자동으로 UI를 다시 그림 (직접 DOM을 조작하지 않아도 됨.)
 
 ## 2. 상태(satate) vs 변수(let, const) 차이
 
@@ -33,7 +33,7 @@ count = count + 1;
 ```
 
 count를 let으로 선언하면 값은 바뀌지만 UI는 업데이트 되지 않는다.
-white_check_mark: useState를 사용해야 값이 바뀔때마다 UI가 자동으로 업데이트된다.
+:white_check_mark: useState를 사용해야 값이 바뀔때마다 UI가 자동으로 업데이트된다.
 
 ## 3. 상태 업데이트의 주의점
 
@@ -58,7 +58,7 @@ function Counter() {
 export default Counter;
 ```
 
-white_check_mark: 반드시 setCount()같은 상태 변경 함수를 사용해야함.
+:white_check_mark: 반드시 setCount()같은 상태 변경 함수를 사용해야함.
 
 ```javascript
 function handleClick() {
@@ -94,7 +94,7 @@ export default Counter;
 - 버튼을 클릭하면 예상과 다르게 `count`값이 1만 증가함
 - `setCount(count +1)`가 실행 될때, `count`는 여전히 **이전 값(0)이라서** 같은 값이 3번 적용된다.
 
-white_check_mark:해결방법 : 함수형 업데이트를 사용하면 이전 상태 값을 안전하게 가져올수 있다.
+:white_check_mark:해결방법 : 함수형 업데이트를 사용하면 이전 상태 값을 안전하게 가져올수 있다.
 
 ```javascript
 function handleClick() {
@@ -104,7 +104,7 @@ function handleClick() {
 }
 ```
 
-white_check_mark: `prevCount`가 최신 상태 값으로 가져오므로 `+3`이 정상적으로 적용된다.
+:white_check_mark: `prevCount`가 최신 상태 값으로 가져오므로 `+3`이 정상적으로 적용된다.
 
 ## 4. 상태관리의 확장(전역상태관리)
 
