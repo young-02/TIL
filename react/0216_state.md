@@ -162,7 +162,7 @@ function Child() {
 }
 ```
 
-white_check_mark:props없이도 상태를 공유 할 수 있음.
+:white_check_mark:props없이도 상태를 공유 할 수 있음.
 
 ### (3)Redux/Zustand 전역 상태관리 라이브러리
 
