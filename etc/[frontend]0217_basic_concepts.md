@@ -35,9 +35,9 @@
 
 ### Webpack의 핵심 기능
 
-:rocket: 번들링(Bundling): 여러 개의 JS, CSS파일을 하나로 합쳐줌.
-:rocket: 로더(Loader) : JS 뿐만 아니라 CSS 이미지도 처리 가능
-:rocket: 플러그인(Plugin): 추가적인 기능(예:파일압축, 코드 최적화)
+:rocket: 번들링(Bundling): 여러 개의 JS, CSS파일을 하나로 합쳐줌.<br>
+:rocket: 로더(Loader) : JS 뿐만 아니라 CSS 이미지도 처리 가능<br>
+:rocket: 플러그인(Plugin): 추가적인 기능(예:파일압축, 코드 최적화)<br>
 :rocket: 핫 모듈 교체 (HMR): 코드 변경시, 새로고침 없이 즉시 반영.
 
 Webpack은 프로젝트를 하나의 최적화된 패키지로 만들어서 **성능을 높이고 관리하기 쉽게** 해준다.
@@ -52,7 +52,9 @@ vite는 Webpack과 같은 프론트엔드 빌드 도구지만, **더 빠르고 �
 |빌드 속도|상대적으로 느림|매우 빠름(esbuild 사용)|
 |초기 설정|복잡|간단|
 |사용성|강력하지만 무거움| 빠르고 가벼움|
-|-|-|-|
+
+### 차이점
+
 :white_check_mark: Vite는 Webpack과 다르게 ES모듈(ESM)방식을 사용해서 개발 서버가 즉시 시작되고, 변경된 코드만 빠르게 적용된다.
 :white_check_mark: Webpack이 프로젝트를 **전체적으로 묶어서 실행하는 방식**이라면, Vite는 **필요한 부분만 가져오는 방식**이라 가볍다.
 
