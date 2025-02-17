@@ -24,9 +24,9 @@
 - 이미지나 CSS파일도 최적화해야 빠른 웹사이트를 만들 수 있음.
 
 이런 문제를 해결하기 위해 프론트엔드 빌드 도구를 사용한다.
-:white_check_mark: 최신 Javascript를 옛날 브라우저에서도 돌아가게 변환 (Babel)
-:white_check_mark: 여러 개의 JS파일을 하나로 합치고 최적화 (번들링)
-:white_check_mark: 이미지나 CSS파일도 압축해서 성능 향상
+:white_check_mark: 최신 Javascript를 옛날 브라우저에서도 돌아가게 변환 (Babel)<br>
+:white_check_mark: 여러 개의 JS파일을 하나로 합치고 최적화 (번들링)<br>
+:white_check_mark: 이미지나 CSS파일도 압축해서 성능 향상<br>
 
 ## Webpack이란?
 
@@ -38,7 +38,7 @@
 :rocket: 번들링(Bundling): 여러 개의 JS, CSS파일을 하나로 합쳐줌.<br>
 :rocket: 로더(Loader) : JS 뿐만 아니라 CSS 이미지도 처리 가능<br>
 :rocket: 플러그인(Plugin): 추가적인 기능(예:파일압축, 코드 최적화)<br>
-:rocket: 핫 모듈 교체 (HMR): 코드 변경시, 새로고침 없이 즉시 반영.
+:rocket: 핫 모듈 교체 (HMR): 코드 변경시, 새로고침 없이 즉시 반영.<br>
 
 Webpack은 프로젝트를 하나의 최적화된 패키지로 만들어서 **성능을 높이고 관리하기 쉽게** 해준다.
 
@@ -55,7 +55,7 @@ vite는 Webpack과 같은 프론트엔드 빌드 도구지만, **더 빠르고 �
 
 ### 차이점
 
-:white_check_mark: Vite는 Webpack과 다르게 ES모듈(ESM)방식을 사용해서 개발 서버가 즉시 시작되고, 변경된 코드만 빠르게 적용된다.
+:white_check_mark: Vite는 Webpack과 다르게 ES모듈(ESM)방식을 사용해서 개발 서버가 즉시 시작되고, 변경된 코드만 빠르게 적용된다.<br>
 :white_check_mark: Webpack이 프로젝트를 **전체적으로 묶어서 실행하는 방식**이라면, Vite는 **필요한 부분만 가져오는 방식**이라 가볍다.
 
 ### ES모듈
