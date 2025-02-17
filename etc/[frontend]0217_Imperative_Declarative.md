@@ -17,16 +17,17 @@
 
 단계별로 정확하게 '어떻게(How)'할 것인지 지시한다.
 
-````js
-const number = [1,2,3,4,5]
+```js
+const number = [1, 2, 3, 4, 5];
 const squaredNumbers = [];
 
-for (let i = 0; i < numbers.length; i++){
-  squaredNumbers.push(numbers[i]**2)
+for (let i = 0; i < numbers.length; i++) {
+  squaredNumbers.push(numbers[i] ** 2);
 }
 
-console.log(squaredNumbers)//[1,4,9,16,25]
+console.log(squaredNumbers); //[1,4,9,16,25]
 ```
+
 - 명확히 실행순서를 하나씩 지시
 - for 루프를 사용하여 직접 ㅑ를 관리, 배열 요소를 순회하면서 값 변경
 
@@ -36,7 +37,7 @@ console.log(squaredNumbers)//[1,4,9,16,25]
 
 ```md
 계란 후라이를 만들어줘
-````
+```
 
 내가 어떻게 만들지 설명할 필요 없이 결과(What)만 말한다.
 
