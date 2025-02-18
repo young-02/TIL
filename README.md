@@ -7,4 +7,7 @@
 - react
 - javascript
 - git 명령어
+- 운영체제
+- 자료구조
+- 알고리즘
 - 기타
