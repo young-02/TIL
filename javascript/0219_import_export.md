@@ -179,4 +179,4 @@ import "./init.js";
 ## 언제 named export와 default export를 사용할까?
 
 - named export는 여러개의 값을 내보낼 때 사용한다.(유틸함수, 여러 개의 클래스 등)
-  default export는 모듈의 핵심 기능 하나만 내보낼때 (라이브러리의 메인 함수)
+- default export는 모듈의 핵심 기능 하나만 내보낼때 (라이브러리의 메인 함수)
