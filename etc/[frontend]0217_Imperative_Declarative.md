@@ -71,3 +71,14 @@ console.log(squaredNumbers); //[1,4,9,16,25]
 | 유지보수   | 복잡하고 실수하기 쉬움                         | 코드가 간결하고 직관적              |
 
 :rocket: "React는 Javascript 기반이지만, 선언형 스타일로 UI를 다루는 라이브러리이다."
+
+## 참고
+
+https://yozm.wishket.com/magazine/detail/2083/
+
+## 참고 후 알아두면 좋을 것.
+
+라액트 Concurrent UI 패턴 : 비동기 컴포넌트에서 결과물에 집중할수 있는 코드를 만들수 있따.
+
+- errorBoundary
+- Suspense
