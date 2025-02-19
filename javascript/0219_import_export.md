@@ -120,7 +120,7 @@ export const greet = (name) => `Hello,${name}`;
 export const age = 30;
 ```
 
-:rocket : 가져올때 (import) - 객체 처럼 가져 올수 있다.
+:rocket: 가져올때 (import) - 객체 처럼 가져 올수 있다.
 
 ```js
 import * as utils from "./utils.js";
@@ -140,7 +140,7 @@ export { multiply, divide } from "./advanceMath.js";
 
 :white_check_mark: 다른 모듈에서 여러 개의 export를 한번에 가져와서 중앙에서 관리 할 수 있다.
 
-:rocket:가져올때(import)
+:rocket: 가져올때(import)
 
 ```js
 import { add, multiply } from "./mathOperations.js";
@@ -173,7 +173,7 @@ import "./init.js";
 | export default    | 기본 내보내기(파일당 1개가능) | export default function () {}         |
 | import {변수명}   | named export 가져오기         | import{name}from './module/js'        |
 | import 변수명     | default export 가져오기       | import myfunc from './module/js'      |
-| import \* as 별칭 | ahems export가져오기          | import \* as utils from "./module/js" |
+| import \* as 별칭 | 모든 export가져오기           | import \* as utils from "./module/js" |
 | import "경로"     | 실행만하고 가져오지 않음      | import './init.js'                    |
 
 ## 언제 named export와 default export를 사용할까?
