@@ -19,7 +19,7 @@ console.log(copy); // [1,2,3]
 console.log(copy === original); // false (다른배열)
 ```
 
-:white_check_mark: original 배열을 복사하여 새로운 배열 copy를 생성
+:white_check_mark: original 배열을 복사하여 새로운 배열 copy를 생성 <br>
 :white_check_mark: `original` !== `copy` -> 새로운 배열이 생성되었다는 의미
 
 ### (2) 배열 합치기 (배열 병합)
@@ -63,7 +63,7 @@ console.log(copy); // { name: "Alice", age: 25 }
 console.log(person === copy); // false (다른 객체)
 ```
 
-:white_check_mark: person 객체를 복사하여 새로운 객체 copy를 생성
+:white_check_mark: person 객체를 복사하여 새로운 객체 copy를 생성 <br>
 :white_check_mark: `person` !== `copy` -> 새로운 객체가 생성되었다는 의미
 
 ### (2) 객체 속성 추가 & 수정
