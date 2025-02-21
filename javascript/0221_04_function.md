@@ -177,13 +177,13 @@ console.log(getInfo("Alice")); //Name:Alice
 
 ## 정리
 
-| 기능             | 설명                   | 예제                           |
-| ---------------- | ---------------------- | ------------------------------ | --------------- |
-| 함수 선언문      | `function` 키워드 사용 | function greet(name){}         |
-| 함수 표현식      | 변수에 익명 함수 할당  | const greet = function(name){} |
-| 화살표 함수      | `=>` 사용              | const greet = (name) => {}     |
-| 기본 값 매개면수 | 기본값 제공            | function fn(name = "Guest"){}  |
-| 선택적 매개변수  | `?` 사용               | function fn(name?){}           |
-| 나머지 매개변수  | `...`사용              | function fn(...args){}         |
-| 반환값 지정      | `:type`사용            | function fn():number{}         |
-| 오버로딩         | 여러 개 함수 정의      | function fn(value:number       | string):string; |
+| 기능             | 설명                   | 예제                              |
+| ---------------- | ---------------------- | --------------------------------- |
+| 함수 선언문      | `function` 키워드 사용 | function greet(name){}            |
+| 함수 표현식      | 변수에 익명 함수 할당  | const greet = function(name){}    |
+| 화살표 함수      | `=>` 사용              | const greet = (name) => {}        |
+| 기본 값 매개면수 | 기본값 제공            | function fn(name = "Guest"){}     |
+| 선택적 매개변수  | `?` 사용               | function fn(name?){}              |
+| 나머지 매개변수  | `...`사용              | function fn(...args){}            |
+| 반환값 지정      | `:type`사용            | function fn():number{}            |
+| 오버로딩         | 여러 개 함수 정의      | function fn(value:number):string; |
