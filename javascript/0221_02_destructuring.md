@@ -16,7 +16,7 @@ console.log(b); // 2
 console.log(c); // 3
 ```
 
-:white_check_mark : number배열에서 각 요소를 변수 a,b,c에 할당 <br>
+:white_check_mark: number배열에서 각 요소를 변수 a,b,c에 할당 <br>
 :white_check_mark: 인덱스 순서대로 값을 가져온다.
 
 ### (1)일부요소만 할당하기
@@ -171,7 +171,7 @@ console.log(firstEmployee) // "Alice"
 - 기본값을 설정할 수 있음
 - 나머지 속성을 `rest`연산자로 받을 수 있음.
 
-  ### 활용예시
+### 활용예시
 
-  - 함수 매개변수에서 사용 가능
-  - 중첩된 객체와 배열에서도 사용 가능
+- 함수 매개변수에서 사용 가능
+- 중첩된 객체와 배열에서도 사용 가능
