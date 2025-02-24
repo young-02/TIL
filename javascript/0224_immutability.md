@@ -85,10 +85,9 @@ import { useState } from "react";
 export default function App() {
   const [numbers, setNumbers] = useState([1, 2, 3]);
 
-  // 직접 상태를 변경하는 잘못된 코드
+  // 불변성을 유지하는 상태 업데이트
   const addNumber = () => {
-    numbers.push(4); // 원본 배열이 변경됨
-    setNumbers(numbers); // 상태가 바뀌었지만 React는 변경을 감지하지 못할 수 있음
+    setNumbers([...numbers, 4]); // 기존 배열을 복사하고 새로운 값을 추가
   };
 
   return (
