@@ -34,3 +34,19 @@ function add(a, b) {
 add(1, 2, 3); //
 console.log(add()); //3
 ```
+
+## 여러값을 리턴 할때
+
+```js
+function a(x, y) {
+  return x, y;
+}
+a(1, 2); // 1
+
+function b(x, y) {
+  return [x, y];
+}
+b(1, 2); //[1,2]
+```
+
+- return 값을 여러개 하려면 배열로 감싸면 된다.
